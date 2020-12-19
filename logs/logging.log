@@ -1,0 +1,147 @@
+{"message":"Server running on port 8888","level":"info"}
+{"message":"Server running on port 8888","level":"info"}
+info: Server running on port 8888
+info: Server running on port 8888
+info: Server running on port 8888
+info: Server running on port 8888
+[2020-12-19T06:18:33.614Z]
+[2020-12-19T06:18:59.833Z] info Server running on port 8888
+[2020-12-19T06:23:32.168Z] info Server running on port 8888
+[2020-12-19T06:24:16.733Z] info Server running on port 8888
+[2020-12-19T06:24:49.172Z] info Server running on port 8888
+[2020-12-19T06:24:49.297Z] info Database Connect
+[2020-12-19T06:25:48.357Z] info Server running on port 8888
+[2020-12-19T06:25:48.390Z] info Connection to redis OKE
+[2020-12-19T06:25:48.483Z] info Database Connect
+[2020-12-19T06:26:30.419Z] info Server running on port 8888
+[2020-12-19T06:26:30.438Z] info Connection to redis OKE
+[2020-12-19T06:26:30.552Z] info Database Connect
+[2020-12-19T06:26:59.587Z] info Server running on port 8888
+[2020-12-19T06:26:59.603Z] info Connection to redis OKE
+[2020-12-19T06:26:59.712Z] info Database Connect
+[2020-12-19T06:29:06.501Z] info Server running on port 8888
+[2020-12-19T06:29:06.520Z] info Connection to redis OKE
+[2020-12-19T06:29:06.616Z] info Database Connect
+[2020-12-19T06:32:03.208Z] info Server running on port 8888
+[2020-12-19T06:32:03.236Z] info Connection to redis OKE
+[2020-12-19T06:32:03.337Z] info Database Connect
+[2020-12-19T06:36:05.811Z] info Server running on port 8888
+[2020-12-19T06:36:05.840Z] info Connection to redis OKE
+[2020-12-19T06:36:05.926Z] info Database Connect
+[2020-12-19T06:46:09.716Z] info Server running on port 8888
+[2020-12-19T06:46:09.736Z] info Connection to redis OKE
+[2020-12-19T06:46:09.837Z] info Database Connect
+[2020-12-19T06:52:19.692Z] info Server running on port 8888
+[2020-12-19T06:52:19.723Z] info Connection to redis OKE
+[2020-12-19T06:52:19.818Z] info Database Connect
+[2020-12-19T06:53:31.179Z] info Server running on port 8888
+[2020-12-19T06:53:31.239Z] info Connection to redis OKE
+[2020-12-19T06:53:31.401Z] info Database Connect
+[2020-12-19T06:56:10.207Z] info Server running on port 8888
+[2020-12-19T06:56:10.240Z] info Connection to redis OKE
+[2020-12-19T06:56:10.352Z] info Database Connect
+[2020-12-19T07:05:10.485Z] info Server running on port 8888
+[2020-12-19T07:05:10.500Z] info Connection to redis OKE
+[2020-12-19T07:05:10.595Z] info Database Connect
+[2020-12-19T07:05:30.005Z] info Server running on port 8888
+[2020-12-19T07:05:30.040Z] info Connection to redis OKE
+[2020-12-19T07:05:30.191Z] info Database Connect
+[2020-12-19T07:05:38.907Z] info Server running on port 8888
+[2020-12-19T07:05:38.926Z] info Connection to redis OKE
+[2020-12-19T07:05:39.026Z] info Database Connect
+[2020-12-19T07:08:04.313Z] info Server running on port 8888
+[2020-12-19T07:08:04.348Z] info Connection to redis OKE
+[2020-12-19T07:08:04.599Z] info Database Connect
+[2020-12-19T14:53:14.595Z] info Server running on port 8888
+[2020-12-19T14:53:14.655Z] info Connection to redis OKE
+[2020-12-19T14:53:14.846Z] info Database Connect
+[2020-12-19T15:34:23.329Z] info Server running on port 8888
+[2020-12-19T15:34:23.356Z] info Connection to redis OKE
+[2020-12-19T15:34:23.474Z] info Database Connect
+[2020-12-19T15:36:12.565Z] info Server running on port 8888
+[2020-12-19T15:36:12.595Z] info Connection to redis OKE
+[2020-12-19T15:36:12.703Z] info Database Connect
+[2020-12-19T15:36:19.526Z] info Server running on port 8888
+[2020-12-19T15:36:19.561Z] info Connection to redis OKE
+[2020-12-19T15:36:19.818Z] info Database Connect
+[2020-12-19T15:41:15.564Z] info Server running on port 8888
+[2020-12-19T15:41:15.600Z] info Connection to redis OKE
+[2020-12-19T15:41:15.698Z] info Database Connect
+[2020-12-19T15:41:25.841Z] info Server running on port 8888
+[2020-12-19T15:41:25.870Z] info Connection to redis OKE
+[2020-12-19T15:41:25.977Z] info Database Connect
+[2020-12-19T15:42:18.545Z] info Server running on port 8888
+[2020-12-19T15:42:18.560Z] info Connection to redis OKE
+[2020-12-19T15:42:18.733Z] info Database Connect
+[2020-12-19T15:42:39.942Z] info Server running on port 8888
+[2020-12-19T15:42:39.968Z] info Connection to redis OKE
+[2020-12-19T15:42:40.140Z] info Database Connect
+[2020-12-19T15:43:00.934Z] info Server running on port 8888
+[2020-12-19T15:43:00.968Z] info Connection to redis OKE
+[2020-12-19T15:43:01.207Z] info Database Connect
+[2020-12-19T15:43:55.722Z] info Server running on port 8888
+[2020-12-19T15:43:55.746Z] info Connection to redis OKE
+[2020-12-19T15:43:56.015Z] info Database Connect
+[2020-12-19T15:44:40.096Z] info Server running on port 8888
+[2020-12-19T15:44:40.119Z] info Connection to redis OKE
+[2020-12-19T15:44:40.355Z] info Database Connect
+[2020-12-19T15:44:53.260Z] info Server running on port 8888
+[2020-12-19T15:44:53.290Z] info Connection to redis OKE
+[2020-12-19T15:44:53.527Z] info Database Connect
+[2020-12-19T15:46:35.581Z] info Server running on port 8888
+[2020-12-19T15:46:35.606Z] info Connection to redis OKE
+[2020-12-19T15:46:35.793Z] info Database Connect
+[2020-12-19T15:46:54.377Z] info username salah
+[2020-12-19T15:47:05.580Z] info username salah
+[2020-12-19T15:47:26.947Z] info username salah
+[2020-12-19T15:47:44.766Z] info username salah
+[2020-12-19T15:48:30.612Z] info username salah
+[2020-12-19T15:48:37.194Z] info Server running on port 8888
+[2020-12-19T15:48:37.225Z] info Connection to redis OKE
+[2020-12-19T15:48:37.355Z] info Database Connect
+[2020-12-19T15:48:43.900Z] info Server running on port 8888
+[2020-12-19T15:48:43.921Z] info Connection to redis OKE
+[2020-12-19T15:48:44.051Z] info Database Connect
+[2020-12-19T15:49:27.898Z] info username salah
+[2020-12-19T15:49:56.715Z] info Server running on port 8888
+[2020-12-19T15:49:56.786Z] info Connection to redis OKE
+[2020-12-19T15:49:57.063Z] info Database Connect
+[2020-12-19T15:55:29.901Z] info Server running on port 8888
+[2020-12-19T15:55:29.933Z] info Connection to redis OKE
+[2020-12-19T15:55:30.040Z] info Database Connect
+[2020-12-19T15:55:57.094Z] info Server running on port 8888
+[2020-12-19T15:55:57.129Z] info Connection to redis OKE
+[2020-12-19T15:55:57.294Z] info Database Connect
+[2020-12-19T15:56:38.460Z] info Server running on port 8888
+[2020-12-19T15:56:38.485Z] info Connection to redis OKE
+[2020-12-19T15:56:38.694Z] info Database Connect
+[2020-12-19T15:58:23.068Z] info Server running on port 8888
+[2020-12-19T15:58:23.134Z] info Connection to redis OKE
+[2020-12-19T15:58:23.313Z] info Database Connect
+[2020-12-19T16:02:06.906Z] info Server running on port 8888
+[2020-12-19T16:02:06.954Z] info Connection to redis OKE
+[2020-12-19T16:02:07.139Z] info Database Connect
+[2020-12-19T16:03:28.568Z] info Server running on port 8888
+[2020-12-19T16:03:28.583Z] info Connection to redis OKE
+[2020-12-19T16:03:28.691Z] info Database Connect
+[2020-12-19T16:03:41.564Z] info Server running on port 8888
+[2020-12-19T16:03:41.584Z] info Connection to redis OKE
+[2020-12-19T16:03:41.694Z] info Database Connect[2020-12-19T16:33:29.986Z] info Server running on port 8888
+[2020-12-19T16:33:30.036Z] info Connection to redis OKE
+[2020-12-19T16:33:30.168Z] info Database Connect
+[2020-12-19T17:19:52.131Z] info Server running on port 8888
+[2020-12-19T17:19:52.179Z] info Connection to redis OKE
+[2020-12-19T17:19:52.355Z] info Database Connect
+[2020-12-19T17:19:54.954Z] info Server running on port 8888
+[2020-12-19T17:19:54.988Z] info Connection to redis OKE
+[2020-12-19T17:19:55.095Z] info Database Connect
+[2020-12-19T17:37:57.107Z] info Server running on port 8888
+[2020-12-19T17:37:57.126Z] info Connection to redis OKE
+[2020-12-19T17:37:57.362Z] info Database Connect
+[2020-12-19T17:38:26.374Z] info Server running on port 8888
+[2020-12-19T17:38:26.402Z] info Connection to redis OKE
+[2020-12-19T17:38:26.507Z] info Database Connect
+[2020-12-19T17:38:31.996Z] info Server running on port 8888
+[2020-12-19T17:38:32.131Z] info Connection to redis OKE
+[2020-12-19T17:38:32.257Z] info Database Connect
+[2020-12-19T17:38:49.795Z] warn Error jwt expired
