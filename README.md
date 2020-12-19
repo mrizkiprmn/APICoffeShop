@@ -7,7 +7,7 @@
 ###### - Test API & documentation with Postman
 ###### - Otentikasi & Otorisasi
 ###### - Hash Password
-###### - Cloudinar
+###### - Cloudinary
 ###### - Logging to file using Winston
 ###### - JWT
 ###### - Redis
