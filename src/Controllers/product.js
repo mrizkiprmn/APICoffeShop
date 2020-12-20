@@ -24,7 +24,7 @@ product.getAll = async (req, res) => {
       logger.info("get all product by postgreSQL success")
       return response(res, 200, result);
     } catch (error) {
-      logger.warn("get all product failed")
+      logger.error("get all product failed")
       return response(res, 500, error);
     };
   };
@@ -35,7 +35,7 @@ product.get = async (req, res) => {
       logger.info("get product with id success")
       return response(res, 200, result);
     } catch (error) {
-      logger.warn("get product with id failed")
+      logger.error("get product with id failed")
       return response(res, 500, error);
     };
   };
@@ -52,7 +52,7 @@ product.add = async (req, res) => {
         logger.info("add product success")
         return response(res, 201, result);
     } catch (error){
-      logger.warn("add product failed")
+      logger.error("add product failed")
         return response(res, 400, error);
     };
     
@@ -69,7 +69,7 @@ product.update = async (req, res) => {
         logger.info("update product success")
         return response(res, 200, result);
     } catch (error){
-      logger.info("update product failed")
+      logger.error("update product failed")
         return response(res, 400, error);
     };
 };
@@ -80,7 +80,7 @@ product.del = async (req, res) => {
        logger.info("delete product with id success")
         return response(res, 200, result);
    }catch (error) {
-        logger.warn("delete product with id failed")
+        logger.error("delete product with id failed")
         return response(res, 400, error);
    };
 };

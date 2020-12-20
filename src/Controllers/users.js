@@ -11,7 +11,7 @@ users.getAll = async (req, res) => {
         logger.info("get all users success")
         return response(res, 200, result);
     } catch (error){
-        logger.warn("error")
+        logger.error("error")
         return response(res, 500, error);
 
     };
@@ -24,12 +24,12 @@ users.add = async (req, res) => {
         const checkEmail = await model.getByEmail(req.body.email)
 
         if(checkUser.length > 0) {
-            logger.warn("username has been registered")
+            logger.error("username has been registered")
             return response(res, 401, {msg: "username has been registered"})
         }
 
         if(checkEmail.length > 0) {
-            logger.warn("email has been registered")
+            logger.error("email has been registered")
             return response(res, 401, {msg: "email has been registered"})
         }
 
@@ -46,7 +46,7 @@ users.add = async (req, res) => {
         logger.info("add users success")
         return response(res, 201, data);
     } catch (error){
-        logger.warn("add users failed", error)
+        logger.error("add users failed")
         return response(res, 500, error);
     };
 
@@ -66,7 +66,7 @@ users.update = async (req, res) => {
         logger.info("update users success")
         return response(res, 200, data);
     } catch (error){
-        logger.warn("update users failed", error)
+        logger.error("update users failed")
         return response(res, 400, error);
     };
 };
@@ -77,7 +77,7 @@ users.del = async (req, res) => {
         logger.info("delete id users success")
          return response(res, 200, result);
     } catch (error) {
-        logger.warn("delete id users failed", error)
+        logger.error("delete id users failed")
          return response(res, 400, error);
     };
  };

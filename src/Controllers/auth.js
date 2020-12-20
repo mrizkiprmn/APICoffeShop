@@ -26,12 +26,12 @@ class Auth {
             logger.info("login success")
             return response (res, 200, result)
         } else {
-            logger.warn("check password")
+            logger.error("check password")
             return response (res, 400, {msg: "Check Password"})
         }
 
         } catch (error) {
-            logger.warn(error)
+            logger.error(error)
             return response (res, 500, error)
 
         }

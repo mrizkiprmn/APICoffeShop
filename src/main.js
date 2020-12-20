@@ -16,7 +16,7 @@ routes.use("/users", users);
 routes.use("/auth", auth);
 
 routes.use("*", (req, res)=> {
-    logger.warn("Check URL")
+    logger.error("Check URL")
     res.send("DATA NOT FOUND")  
 })
 
