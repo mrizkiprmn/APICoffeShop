@@ -23,7 +23,7 @@ db.connect()
         logger.info("Database Connect");
 })
     .catch((err)=> {
-        logger.info("Database not Connected");
+        logger.error("Database not Connected");
         logger.info(err)
 })
 
