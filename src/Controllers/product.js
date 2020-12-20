@@ -21,10 +21,10 @@ product.getAll = async (req, res) => {
         redisdb.setex("product", 60, saveRedis)
         console.log("from postgreSQL")
       };
-      logger.info("get all product by postgreSQL success")
+      logger.info("Get all Product by postgreSQL Success")
       return response(res, 200, result);
     } catch (error) {
-      logger.error("get all product failed")
+      logger.error("Get all Product Failed")
       return response(res, 500, error);
     };
   };
@@ -32,10 +32,10 @@ product.getAll = async (req, res) => {
 product.get = async (req, res) => {
     try {
       const result = await model.get(req.params.id);
-      logger.info("get product with id success")
+      logger.info("Get Product by id Success")
       return response(res, 200, result);
     } catch (error) {
-      logger.error("get product with id failed")
+      logger.error("Get Product by id Failed")
       return response(res, 500, error);
     };
   };
@@ -49,10 +49,10 @@ product.add = async (req, res) => {
         const image_url = await cloudUpload(req.file.path)
         const result = await model.add(req.body, image_url);
         redisdb.del("product")
-        logger.info("add product success")
+        logger.info("Add Product Success")
         return response(res, 201, result);
     } catch (error){
-      logger.error("add product failed")
+      logger.error("Add Product Failed")
         return response(res, 400, error);
     };
     
@@ -66,10 +66,10 @@ product.update = async (req, res) => {
         const image_url = await cloudUpload(req.file.path)
         const result = await model.update(req.body, image_url);
         redisdb.del("product")
-        logger.info("update product success")
+        logger.info("Update Product Success")
         return response(res, 200, result);
     } catch (error){
-      logger.error("update product failed")
+      logger.error("Update Product Failed")
         return response(res, 400, error);
     };
 };
@@ -77,10 +77,10 @@ product.update = async (req, res) => {
 product.del = async (req, res) => {
    try {
        const result = await model.del(req.params.id);
-       logger.info("delete product with id success")
+       logger.info("Delete Product by id Success")
         return response(res, 200, result);
    }catch (error) {
-        logger.error("delete product with id failed")
+        logger.error("Delete Product by id Failed")
         return response(res, 400, error);
    };
 };

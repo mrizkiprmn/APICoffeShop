@@ -12,10 +12,10 @@ class Auth {
         const passUser = req.body.password
             
         if(passDBUserName.length <= 0) {
-            logger.info("username not registered")
+            logger.info("Username not registered")
             return response(res, 400, {msg: "username not registered"})
         } else if (passDBEmail.length <= 0) {
-            logger.info("email not registered")
+            logger.info("Email not registered")
             return response(res, 400, {msg: "email not registered"})
         }
         
@@ -23,10 +23,10 @@ class Auth {
 
         if (check) { 
             const result = await this.setToken(req.body.email, passDBUserName[0].role)
-            logger.info("login success")
+            logger.info("Login Success")
             return response (res, 200, result)
         } else {
-            logger.error("check password")
+            logger.error("Check Password")
             return response (res, 400, {msg: "Check Password"})
         }
 
@@ -50,7 +50,7 @@ class Auth {
                 msg : "Token created",
                 token : token
             }
-            logger.info("created token succes")
+            logger.info("Created Token Success")
             return result
 
         } catch (error) {

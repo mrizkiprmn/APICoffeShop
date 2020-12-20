@@ -12,7 +12,7 @@ class Redis {
     redisCheck() {
         return new Promise((resolve, reject)=>{
             this.redisdb.get("testkey", (err, res)=>{
-                if(err) {
+                if(err) {   
                     reject(err)
                 }
                 if(res === "OK" || res === null) {

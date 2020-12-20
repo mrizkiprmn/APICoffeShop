@@ -8,7 +8,7 @@ const users = {};
 users.getAll = async (req, res) => {
     try{
         const result = await model.getAll();
-        logger.info("get all users success")
+        logger.info("Get all Users Success")
         return response(res, 200, result);
     } catch (error){
         logger.error("error")
@@ -24,12 +24,12 @@ users.add = async (req, res) => {
         const checkEmail = await model.getByEmail(req.body.email)
 
         if(checkUser.length > 0) {
-            logger.error("username has been registered")
+            logger.error("Username has been registered")
             return response(res, 401, {msg: "username has been registered"})
         }
 
         if(checkEmail.length > 0) {
-            logger.error("email has been registered")
+            logger.error("Email has been registered")
             return response(res, 401, {msg: "email has been registered"})
         }
 
@@ -43,10 +43,10 @@ users.add = async (req, res) => {
 
         const data = await model.add(users);
 
-        logger.info("add users success")
+        logger.info("Add Users Success")
         return response(res, 201, data);
     } catch (error){
-        logger.error("add users failed")
+        logger.error("Add Users Failed")
         return response(res, 500, error);
     };
 
@@ -63,10 +63,10 @@ users.update = async (req, res) => {
         }
 
         const data = await model.update(users);
-        logger.info("update users success")
+        logger.info("Update Users Success")
         return response(res, 200, data);
     } catch (error){
-        logger.error("update users failed")
+        logger.error("Update Users Failed")
         return response(res, 400, error);
     };
 };
@@ -74,10 +74,10 @@ users.update = async (req, res) => {
 users.del = async (req, res) => {
     try {
         const result = await model.del(req.params.id);
-        logger.info("delete id users success")
+        logger.info("Delete id Users Success")
          return response(res, 200, result);
     } catch (error) {
-        logger.error("delete id users failed")
+        logger.error("Delete id Users Failed")
          return response(res, 400, error);
     };
  };
