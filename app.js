@@ -1,6 +1,6 @@
 require("dotenv/config");
 const express = require("express");
-const logger = require("./Utils/logger.js")
+const logger = require("./utils/logger")
 const cors = require('cors');
 const server = express();
 const routes = require('./src/main');

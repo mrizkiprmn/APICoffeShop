@@ -2,7 +2,7 @@ const response = require("../Helpers/response")
 const redis = require("../Configs/redis")
 const respon = require("../Helpers/response")
 const {redisdb} = require("../Configs/redis")
-const logger = require("../../Utils/logger")
+const logger = require("../../utils/logger")
 
 const getAll = (req, res, next) => {
 

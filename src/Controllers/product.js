@@ -3,7 +3,7 @@ const model = require('../Models/product');
 const response = require('../Helpers/response');
 const cloudUpload = require("../Helpers/cloudUpload")
 const {redisdb} = require('../Configs/redis')
-const logger = require('../../Utils/logger');
+const logger = require("../../utils/logger")
 
 
 product.getAll = async (req, res) => {

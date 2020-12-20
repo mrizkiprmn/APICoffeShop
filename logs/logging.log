@@ -1,0 +1,9 @@
+[2020-12-20T08:25:38.502Z] info Server running on port 8888
+[2020-12-20T08:25:38.527Z] info Connection to redis OKE
+[2020-12-20T08:25:38.633Z] info Database Connect
+[2020-12-20T08:25:47.903Z] info get all product by postgreSQL success
+[2020-12-20T08:25:52.428Z] info get all product by redis success
+[2020-12-20T08:26:12.524Z] info set token succes
+[2020-12-20T08:26:12.525Z] info login success
+[2020-12-20T08:26:25.180Z] info get all product by redis success
+[2020-12-20T08:26:38.877Z] warn you not premitted

@@ -6,7 +6,7 @@ const history = require("./Routes/history");
 const users = require("./Routes/users");
 const auth = require("./Routes/auth")
 const { cloudinaryConfig } = require("./Configs/cloudInary")
-const logger = require("../Utils/logger")
+const logger = require("../utils/logger")
 
 routes.use("*", cloudinaryConfig)
 routes.use("/product", product);

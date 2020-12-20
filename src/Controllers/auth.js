@@ -2,7 +2,7 @@ const bcr = require('bcrypt')
 const model = require('../Models/users')
 const response = require('../Helpers/response');
 const jwt = require('jsonwebtoken');
-const logger = require('../../Utils/logger');
+const logger = require('../../utils/logger');
 
 class Auth {
     login = async (req, res) =>{
