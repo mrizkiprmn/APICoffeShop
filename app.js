@@ -24,7 +24,6 @@ db.connect()
 })
     .catch((err)=> {
         logger.error("Database not Connected");
-        logger.info(err)
 })
 
 
@@ -34,7 +33,7 @@ redis
         logger.info(res)
     })
     .catch((err)=>{
-        logger.info(err)
+        logger.error(err)
     })
 
 
