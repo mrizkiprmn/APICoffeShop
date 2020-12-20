@@ -1,6 +1,6 @@
 const response = require('../Helpers/response')
 const jwt = require('jsonwebtoken')
-const logger = require('../../Utils/logger')
+const logger = require('../../utils/logger')
 const { error } = require('winston')
 
 const checkToken = (roles) => {

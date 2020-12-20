@@ -1,7 +1,7 @@
 const model = require('../Models/users');
 const response = require('../Helpers/response');
 const hashPassword = require('../Helpers/hash');
-const logger = require('../../Utils/logger');
+const logger = require('../../utils/logger');
 
 const users = {};
 
