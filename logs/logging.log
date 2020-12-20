@@ -7,3 +7,20 @@
 [2020-12-20T08:26:12.525Z] info login success
 [2020-12-20T08:26:25.180Z] info get all product by redis success
 [2020-12-20T08:26:38.877Z] warn you not premitted
+[2020-12-20T08:29:35.559Z] warn login first
+[2020-12-20T08:29:35.634Z] warn Check URL
+[2020-12-20T08:29:36.311Z] warn login first
+[2020-12-20T08:29:36.350Z] warn Check URL
+[2020-12-20T08:30:26.004Z] warn username has been registered
+[2020-12-20T08:30:48.891Z] warn username has been registered
+[2020-12-20T08:30:53.369Z] warn email has been registered
+[2020-12-20T08:31:29.905Z] info set token succes
+[2020-12-20T08:31:29.906Z] info login success
+[2020-12-20T08:31:37.959Z] info get all product by postgreSQL success
+[2020-12-20T08:31:44.166Z] info get all product by redis success
+[2020-12-20T08:32:21.771Z] info Server running on port 8888
+[2020-12-20T08:32:21.790Z] info Connection to redis OKE
+[2020-12-20T08:32:21.953Z] info Database Connect
+[2020-12-20T08:32:34.445Z] info Server running on port 8888
+[2020-12-20T08:32:34.461Z] info Connection to redis OKE
+[2020-12-20T08:32:34.570Z] info Database Connect

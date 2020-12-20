@@ -19,7 +19,7 @@ product.getAll = async (req, res) => {
         result = await model.getAll();
         const saveRedis = JSON.stringify(result)
         redisdb.setex("product", 60, saveRedis)
-        console.log("dari postgreSQL")
+        console.log("from postgreSQL")
       };
       logger.info("get all product by postgreSQL success")
       return response(res, 200, result);

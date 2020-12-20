@@ -14,7 +14,7 @@ const getAll = (req, res, next) => {
 
         if(data !== null) {
             const result = JSON.parse(data)
-            console.log("dari redis")
+            console.log("from redis")
             logger.info("get all product by redis success")
             return respon(res, 200, result)
             
