@@ -12,7 +12,7 @@ const checkToken = (roles) => {
         const result = {
             msg : "Login first"
         }
-        logger.error("login first")
+        logger.error("Login First")
         return response(res, 401, result)
     }
 
@@ -30,7 +30,7 @@ const checkToken = (roles) => {
             if(isAccess) {
                 next()
             } else {
-                logger.error("you not premitted")
+                logger.error("You not premitted")
                 return response(res, 401, {msg: "you not premitted"})
             }
        })
