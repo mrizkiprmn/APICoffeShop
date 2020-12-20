@@ -50,7 +50,7 @@ class Auth {
                 msg : "Token created",
                 token : token
             }
-            logger.info("set token succes")
+            logger.info("created token succes")
             return result
 
         } catch (error) {
