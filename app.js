@@ -1,6 +1,6 @@
 require("dotenv/config");
 const express = require("express");
-const logger = require("./utils/logger.js")
+const logger = require("./Utils/logger.js")
 const cors = require('cors');
 const server = express();
 const routes = require('./src/main');
@@ -15,8 +15,8 @@ server.use(bodyPars.urlencoded({extended: false}));
 server.use(cors());
 server.use(bodyPars.json());
 server.use(morgan("dev"));
-// server.use("/public", express.static("public"))
 server.use(routes);
+
 
 db.connect()
     .then((res) => {

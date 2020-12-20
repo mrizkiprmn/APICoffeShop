@@ -1,13 +1,17 @@
 const model = require('../Models/users');
 const response = require('../Helpers/response');
 const hashPassword = require('../Helpers/hash');
+const logger = require('../../Utils/logger');
+
 const users = {};
 
 users.getAll = async (req, res) => {
     try{
         const result = await model.getAll();
+        logger.info("get all users success")
         return response(res, 200, result);
     } catch (error){
+        logger.warn("error")
         return response(res, 500, error);
 
     };
@@ -20,10 +24,12 @@ users.add = async (req, res) => {
         const checkEmail = await model.getByEmail(req.body.email)
 
         if(checkUser.length > 0) {
+            logger.warn("username has been registered")
             return response(res, 401, {msg: "username has been registered"})
         }
 
         if(checkEmail.length > 0) {
+            logger.warn("email has been registered")
             return response(res, 401, {msg: "email has been registered"})
         }
 
@@ -36,9 +42,11 @@ users.add = async (req, res) => {
         }
 
         const data = await model.add(users);
+
+        logger.info("add users success")
         return response(res, 201, data);
     } catch (error){
-        console.log(error)
+        logger.warn("add users failed", error)
         return response(res, 500, error);
     };
 
@@ -55,8 +63,10 @@ users.update = async (req, res) => {
         }
 
         const data = await model.update(users);
+        logger.info("update users success")
         return response(res, 200, data);
     } catch (error){
+        logger.warn("update users failed", error)
         return response(res, 400, error);
     };
 };
@@ -64,8 +74,10 @@ users.update = async (req, res) => {
 users.del = async (req, res) => {
     try {
         const result = await model.del(req.params.id);
+        logger.info("delete id users success")
          return response(res, 200, result);
     } catch (error) {
+        logger.warn("delete id users failed", error)
          return response(res, 400, error);
     };
  };

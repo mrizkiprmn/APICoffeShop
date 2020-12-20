@@ -1,4 +1,4 @@
-const logger = require('../../utils/logger');
+const logger = require('../../Utils/logger');
 const db = require('../Configs/db');
 const product = {};
 

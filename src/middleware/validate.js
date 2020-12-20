@@ -1,6 +1,6 @@
 const response = require('../Helpers/response')
 const jwt = require('jsonwebtoken')
-const logger = require('../../utils/logger')
+const logger = require('../../Utils/logger')
 const { error } = require('winston')
 
 const checkToken = (roles) => {
@@ -12,6 +12,7 @@ const checkToken = (roles) => {
         const result = {
             msg : "Login first"
         }
+        logger.warn("login first")
         return response(res, 401, result)
     }
 
@@ -29,6 +30,7 @@ const checkToken = (roles) => {
             if(isAccess) {
                 next()
             } else {
+                logger.warn("you not premitted")
                 return response(res, 401, {msg: "you not premitted"})
             }
        })
@@ -36,16 +38,3 @@ const checkToken = (roles) => {
 }
 
 module.exports = checkToken
-
-// let valid = false
-// roles.map((role)=> {
-//     if(user[0].role_users == role) {
-//         valid = true
-//     }
-// })
-
-//     if(valid) {
-//         next()
-//     } else {
-//         return response (res, 401, "Access is not permitted", {})
-//     }

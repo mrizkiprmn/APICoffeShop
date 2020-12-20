@@ -6,7 +6,7 @@ const history = require("./Routes/history");
 const users = require("./Routes/users");
 const auth = require("./Routes/auth")
 const { cloudinaryConfig } = require("./Configs/cloudInary")
-
+const logger = require("../Utils/logger")
 
 routes.use("*", cloudinaryConfig)
 routes.use("/product", product);
@@ -16,6 +16,7 @@ routes.use("/users", users);
 routes.use("/auth", auth);
 
 routes.use("*", (req, res)=> {
+    logger.warn("Check URL")
     res.send("DATA NOT FOUND")  
 })
 
