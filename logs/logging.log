@@ -1,26 +1,58 @@
-[2020-12-20T08:25:38.502Z] info Server running on port 8888
-[2020-12-20T08:25:38.527Z] info Connection to redis OKE
-[2020-12-20T08:25:38.633Z] info Database Connect
-[2020-12-20T08:25:47.903Z] info get all product by postgreSQL success
-[2020-12-20T08:25:52.428Z] info get all product by redis success
-[2020-12-20T08:26:12.524Z] info set token succes
-[2020-12-20T08:26:12.525Z] info login success
-[2020-12-20T08:26:25.180Z] info get all product by redis success
-[2020-12-20T08:26:38.877Z] warn you not premitted
-[2020-12-20T08:29:35.559Z] warn login first
-[2020-12-20T08:29:35.634Z] warn Check URL
-[2020-12-20T08:29:36.311Z] warn login first
-[2020-12-20T08:29:36.350Z] warn Check URL
-[2020-12-20T08:30:26.004Z] warn username has been registered
-[2020-12-20T08:30:48.891Z] warn username has been registered
-[2020-12-20T08:30:53.369Z] warn email has been registered
-[2020-12-20T08:31:29.905Z] info set token succes
-[2020-12-20T08:31:29.906Z] info login success
-[2020-12-20T08:31:37.959Z] info get all product by postgreSQL success
-[2020-12-20T08:31:44.166Z] info get all product by redis success
-[2020-12-20T08:32:21.771Z] info Server running on port 8888
-[2020-12-20T08:32:21.790Z] info Connection to redis OKE
-[2020-12-20T08:32:21.953Z] info Database Connect
-[2020-12-20T08:32:34.445Z] info Server running on port 8888
-[2020-12-20T08:32:34.461Z] info Connection to redis OKE
-[2020-12-20T08:32:34.570Z] info Database Connect
+[2020-12-20T10:17:54.051Z] info : Server running on port 8888
+[2020-12-20T10:17:54.072Z] info : Connection to redis OKE
+[2020-12-20T10:17:54.179Z] info : Database Connect
+[2020-12-20T10:18:48.517Z] info : Server running on port 8888
+[2020-12-20T10:18:48.558Z] info : Connection to redis OKE
+[2020-12-20T10:18:48.723Z] info : Database Connect
+[2020-12-20T10:18:53.570Z] info : Server running on port 8888
+[2020-12-20T10:18:53.641Z] info : Connection to redis OKE
+[2020-12-20T10:18:53.876Z] info : Database Connect
+[2020-12-20T10:19:56.955Z] info : Server running on port 8888
+[2020-12-20T10:19:56.978Z] info : Connection to redis OKE
+[2020-12-20T10:19:57.095Z] info : Database Connect
+[2020-12-20T10:20:02.260Z] info : Server running on port 8888
+[2020-12-20T10:20:02.286Z] info : Connection to redis OKE
+[2020-12-20T10:20:02.396Z] info : Database Connect
+[2020-12-20T10:20:14.945Z] info : Server running on port 8888
+[2020-12-20T10:20:14.961Z] info : Connection to redis OKE
+[2020-12-20T10:20:15.081Z] info : Database Connect
+[2020-12-20T10:20:35.056Z] info : Server running on port 8888
+[2020-12-20T10:20:35.073Z] info : Connection to redis OKE
+[2020-12-20T10:20:35.204Z] info : Database Connect
+[2020-12-20T10:21:46.442Z] info : Server running on port 8888
+[2020-12-20T10:21:46.470Z] info : Connection to redis OKE
+[2020-12-20T10:21:46.580Z] info : Database Connect
+[2020-12-20T10:22:27.690Z] info : Server running on port 8888
+[2020-12-20T10:22:27.717Z] info : Connection to redis OKE
+[2020-12-20T10:22:27.906Z] info : Database Connect
+[2020-12-20T10:22:38.542Z] info : Server running on port 8888
+[2020-12-20T10:22:38.558Z] info : Connection to redis OKE
+[2020-12-20T10:22:38.691Z] info : Database Connect
+[2020-12-20T10:22:45.267Z] info : Server running on port 8888
+[2020-12-20T10:22:45.307Z] info : Connection to redis OKE
+[2020-12-20T10:22:45.437Z] info : Database Connect
+[2020-12-20T10:23:25.289Z] info : Server running on port 8888
+[2020-12-20T10:23:25.303Z] info : Connection to redis OKE
+[2020-12-20T10:23:25.467Z] info : Database Connect
+[2020-12-20T10:23:41.139Z] info : Server running on port 8888
+[2020-12-20T10:23:41.172Z] info : Connection to redis OKE
+[2020-12-20T10:23:41.278Z] info : Database Connect
+[2020-12-20T10:24:01.675Z] info : Server running on port 8888
+[2020-12-20T10:24:01.707Z] info : Connection to redis OKE
+[2020-12-20T10:24:01.855Z] info : Database Connect
+[2020-12-20T10:24:20.967Z] info : Created Token Success
+[2020-12-20T10:24:20.968Z] info : Login Success
+[2020-12-20T10:25:12.272Z] info : Get all Product by postgreSQL Success
+[2020-12-20T10:25:17.125Z] info : get all product by redis success
+[2020-12-20T10:26:05.588Z] info : Server running on port 8888
+[2020-12-20T10:26:05.620Z] info : Connection to redis OKE
+[2020-12-20T10:26:05.764Z] info : Database Connect
+[2020-12-20T10:26:15.494Z] info : Get all Product by postgreSQL Success
+[2020-12-20T10:26:21.096Z] info : Get all Product by Redis success
+[2020-12-20T10:26:23.687Z] info : Get all Product by Redis success
+[2020-12-20T10:26:24.554Z] info : Get all Product by Redis success
+[2020-12-20T10:26:25.302Z] info : Get all Product by Redis success
+[2020-12-20T10:26:26.081Z] info : Get all Product by Redis success
+[2020-12-20T10:27:02.062Z] info : Server running on port 8888
+[2020-12-20T10:27:02.097Z] info : Connection to redis OKE
+[2020-12-20T10:27:02.199Z] info : Database Connect
