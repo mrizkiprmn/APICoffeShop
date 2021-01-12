@@ -16,7 +16,7 @@ class Redis {
                     reject(err)
                 }
                 if(res === "OK" || res === null) {
-                    resolve("Connection to redis OKE")
+                    resolve("Redis Connected")
                 }
             })
         })
