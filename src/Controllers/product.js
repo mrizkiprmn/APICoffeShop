@@ -7,20 +7,11 @@ const logger = require("../../utils/logger")
 
 
 product.getAll = async (req, res) => {
-    const { search } = req.query;
-    const { orderBy, sort } = req.query;
-    let result;
     try {
-      if (search) {
-        result = await model.getSearch(search);
-      } else if (orderBy) {
-        result = await model.getSort(orderBy, sort);
-      } else {
-        result = await model.getAll();
-        const saveRedis = JSON.stringify(result)
-        redisdb.setex("product", 60, saveRedis)
-        console.log("from postgreSQL")
-      };
+      const result = await model.getAll();
+      const saveRedis = JSON.stringify(result)
+      redisdb.setex("product", 60, saveRedis)
+      console.log("from postgreSQL")
       logger.info("Get all Product by postgreSQL Success")
       return response(res, 200, result);
     } catch (error) {
@@ -30,8 +21,17 @@ product.getAll = async (req, res) => {
   };
 
 product.get = async (req, res) => {
+      const { search } = req.query;
+      const { orderBy, sort } = req.query;
+      let result;
     try {
-      const result = await model.get(req.params.id);
+      if (search) {
+        result = await model.getSearch(search);
+      } else if (orderBy) {
+        result = await model.getSort(orderBy, sort);
+      } else {
+      result = await model.get(req.params.id);
+      }
       logger.info("Get Product by id Success")
       return response(res, 200, result);
     } catch (error) {
@@ -40,6 +40,28 @@ product.get = async (req, res) => {
     };
   };
 
+
+product.getSort = async (req, res) => {
+    try {
+      const result = await model.getSort(req.query.orderBy, req.query.sort)
+      logger.info("Sort Product Success")
+      return response(res, 200, result)
+    } catch (error) {
+      logger.error("Sort Product Failed")
+      return response(res, 500, error)
+    }
+}
+
+product.getSearch = async (req, res) => {
+  try {
+    const result = await model.getSearch(req.query)
+    logger.info("Search Product Success")
+    return response(res, 200, result)
+  } catch (error) {
+    logger.error("Search Product Failed")
+    return response(res, 500, error)
+  }
+}
 
 product.add = async (req, res) => {
     try {

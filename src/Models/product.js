@@ -4,7 +4,7 @@ const product = {};
 
 product.getAll= () => {
     return new Promise((resolve, reject) => {
-      db.query("SELECT product.id, product.name, product.price, product.image, category.name AS category FROM public.product LEFT JOIN public.category ON category.id = product.id_category ORDER BY product.id ASC")
+      db.query("SELECT product.id, product.name, product.price, product.image, product.id_category, category.name AS category FROM public.product LEFT JOIN public.category ON category.id = product.id_category ORDER BY product.id DESC")
         .then((res) => {
           if (res.rows.length == 0) {
             resolve('Product is empty!');
@@ -20,17 +20,19 @@ product.getAll= () => {
 
 
 product.getSearch = (name) => {
+
     return new Promise((resolve, reject) => {
       db.query(`SELECT product.id,
                   product.name, 
                   product.price, 
-                  product.image, 
+                  product.image,
+                  product.id_category, 
                   category.name AS category
           FROM public.product 
           LEFT JOIN public.category 
           ON category.id = product.id_category
           WHERE product.name
-            ILIKE '%${name}%'`,)
+            ILIKE '%${name}%'`)
         .then((res) => {
           if (res.rows.length == 0) {
             resolve('Data not found');
