@@ -15,12 +15,13 @@ server.use(bodyPars.urlencoded({extended: false}));
 server.use(cors());
 server.use(bodyPars.json());
 server.use(morgan("dev"));
-server.use(routes);
+server.use('/api',routes)
+// server.use(routes)
 
 
 db.connect()
     .then((res) => {
-        logger.info("Database Connect");
+        logger.info("Database Connected");
 })
     .catch((err)=> {
         logger.error("Database not Connected");
