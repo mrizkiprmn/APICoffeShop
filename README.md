@@ -1,8 +1,6 @@
 # APICoffeShop
 
--------------------------------------------
-
-![expressjs](https://user-images.githubusercontent.com/64014794/104838595-7860c280-58ee-11eb-9fb8-754b26c4ade1.jpg)
+![express-routing-logo](https://user-images.githubusercontent.com/64014794/104838631-c970b680-58ee-11eb-9fbe-60532e724bd6.png)
 
 ### Backend build using:
 ###### - Express.js
