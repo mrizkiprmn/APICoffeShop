@@ -6,7 +6,7 @@ WORKDIR /usr/apicoffeeshop
 
 COPY package*.json ./
 
-COPY ..
+COPY . .
 
 RUN npm install
 
