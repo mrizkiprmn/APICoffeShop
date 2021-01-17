@@ -1,5 +1,9 @@
 # APICoffeShop
 
+-------------------------------------------
+
+![expressjs](https://user-images.githubusercontent.com/64014794/104838595-7860c280-58ee-11eb-9fb8-754b26c4ade1.jpg)
+
 ### Backend build using:
 ###### - Express.js
 ###### - PostgreSQL
