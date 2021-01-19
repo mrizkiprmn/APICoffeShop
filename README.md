@@ -1,7 +1,7 @@
 # APICoffeShop
 
-![express-routing-logo](https://user-images.githubusercontent.com/64014794/104838631-c970b680-58ee-11eb-9fbe-60532e724bd6.png)
-
+## Link Postman
+https://documenter.getpostman.com/view/13693609/TVzYeDUG
 
 
 ### Backend build using:
@@ -17,9 +17,6 @@
 ###### - Redis
 
 -------------
-
-## Link Postman
-https://documenter.getpostman.com/view/13693609/TVzYeDUG
 
 ------------
 
