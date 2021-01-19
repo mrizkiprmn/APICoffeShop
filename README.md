@@ -7,12 +7,10 @@ https://documenter.getpostman.com/view/13693609/TVzYeDUG
 ### Backend build using:
 ###### - Javascript Language
 ###### - Express.js Framework
-###### - PostgreSQL for DB
+###### - PostgreSQL DBMS
 ###### - Postman for testing API
 
 -------------
-
-------------
 
 ### npm Installation
 
