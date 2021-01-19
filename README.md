@@ -42,34 +42,34 @@ $ npm install pg
 ```bash
 $ npm install dotenv
 ```
--------------
+
 #### Using JWT
 ```bash
 $ npm install jsonwebtoken
 ```
--------------
+
 #### Using bcrypt
 ```bash
 $ npm install bcrypt
 ```
--------------
+
 #### Using jwt-decode
 ```bash
 $ npm install jwt-decode
 ```
--------------
+
 #### Using multer
 ```bash
 $ npm install multer
 ```
--------------
+
 #### Using redis
 ```bash
 $ npm install redis
 ```
--------------
+
 #### Using winston
 ```bash
 $ npm install winston
 ```
--------------
+
