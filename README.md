@@ -5,16 +5,10 @@ https://documenter.getpostman.com/view/13693609/TVzYeDUG
 
 
 ### Backend build using:
-###### - Express.js
-###### - PostgreSQL
-###### - Node.js
-###### - Test API & documentation with Postman
-###### - Otentikasi & Otorisasi
-###### - Hash Password
-###### - Cloudinary
-###### - Logging to file using Winston
-###### - JWT
-###### - Redis
+###### - Javascript Language
+###### - Express.js Framework
+###### - PostgreSQL for DB
+###### - Postman for testing API
 
 -------------
 
