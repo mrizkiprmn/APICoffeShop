@@ -1,0 +1,66 @@
+version: "3.7"
+services: 
+  postgres:
+      container_name: postgres
+      image: postgres:latest
+      ports: 
+        - "5432:5432"
+      volumes: 
+        - ./pg-data:/var/lib/postgresql/data
+      networks: 
+        - netnet
+      environment: 
+        - POSTGRES_USER=rizkipermana
+        - POSTGRES_PASSWORD=admin123
+        - POSTGRES_DB=prods
+
+   pgadmin:
+     container_name: pgadmin
+     image: dpage/pgadmin4
+     ports:
+        - "6789:80"
+     environment:
+        PGADMIN_DEFAULT_EMAIL: admin@example.com
+        PGADMIN_DEFAULT_PASSWORD: root
+     restart: unless-stopped
+     networks:
+        - netnet
+
+   redis:
+      container_name: redis
+      image: redis:alpine3.12
+      command: redis-server
+      environment: 
+        - REDIS_PORT=6379
+      ports:  
+        - "6379:6379"
+      networks: 
+        - netnet
+      volumes: 
+        - ./redis-data:/data
+
+  backend:
+      image: mrizkiprmn/backend:express7.0
+      ports: 
+          - "8282-8283:8888"
+      env_file: 
+          - ./backend/.env
+      deploy:
+       mode: replicated
+       replicas: 2
+       resources:
+         limits:
+           cpus: "0.50"
+           memory: 50M
+      networks: 
+          - netnet
+      depends_on: 
+          - postgres
+
+networks: 
+    netnet:
+        driver: bridge
+
+volumes: 
+    pg-data:
+    redis-data:
