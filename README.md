@@ -1,16 +1,14 @@
 # APICoffeShop
 
+## Link Postman
+https://documenter.getpostman.com/view/13693609/TVzYeDUG
+
+
 ### Backend build using:
-###### - Express.js
-###### - PostgreSQL
-###### - Node.js
-###### - Test API & documentation with Postman
-###### - Otentikasi & Otorisasi
-###### - Hash Password
-###### - Cloudinary
-###### - Logging to file using Winston
-###### - JWT
-###### - Redis
+###### - Javascript Language
+###### - Express.js Framework
+###### - PostgreSQL DBMS
+###### - Postman for testing API
 
 -------------
 
@@ -44,34 +42,34 @@ $ npm install pg
 ```bash
 $ npm install dotenv
 ```
--------------
+
 #### Using JWT
 ```bash
 $ npm install jsonwebtoken
 ```
--------------
+
 #### Using bcrypt
 ```bash
 $ npm install bcrypt
 ```
--------------
+
 #### Using jwt-decode
 ```bash
 $ npm install jwt-decode
 ```
--------------
+
 #### Using multer
 ```bash
 $ npm install multer
 ```
--------------
+
 #### Using redis
 ```bash
 $ npm install redis
 ```
--------------
+
 #### Using winston
 ```bash
 $ npm install winston
 ```
--------------
+
